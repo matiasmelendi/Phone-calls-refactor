@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 describe "phone calls" do
 
   it "should get false because the area codes are different" do

@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 describe "company" do
 
   before :each do
@@ -7,7 +9,7 @@ describe "company" do
   describe "billing" do
 
     before :each do
-      @fulano = Customer.new "Fulano", PhoneNumber.new(54, 11, 56745920)
+      @fulano = Customer.new "Fulano", PhoneNumber.new(54, 11, 56745920), @company
       @company.add_customer @fulano
     end
 

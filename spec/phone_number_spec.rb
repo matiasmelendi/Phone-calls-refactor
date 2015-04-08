@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 describe "phone numbers" do
 
   it "should know country of the code" do

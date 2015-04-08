@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 describe "phone call rates" do
 
   describe "national rates" do

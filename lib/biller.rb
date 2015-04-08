@@ -8,7 +8,7 @@ class Biller
   end
 
   def bill_for(customer, year, month)
-    Bill.new(bill_cost_for(customer,year,month))
+    Bill.new(bill_cost_for(customer,year,month), customer, year, month)
   end
 
   def cost(call)
